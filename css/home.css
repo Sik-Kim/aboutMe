@@ -1,0 +1,33 @@
+.home {
+  background-color: coral;
+  /* position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center; */
+}
+
+.home .home-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-60%);
+}
+
+.home .home__contents-text {
+  display: flex;
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: 500;
+  opacity: 0.9;
+  justify-content: center;
+}
+
+.home .home__contents-photo {
+}
+.home .home__contents-img {
+  display: flex;
+  justify-content: center;
+}

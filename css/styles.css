@@ -1,0 +1,28 @@
+@import "reset.css";
+@import "menu.css";
+@import "footer.css";
+@import "home.css";
+@import "developer.css";
+@import "favorite.css:";
+@import "dream.css";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+
+body {
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  color: #020202;
+  background-color: white;
+  padding: 10px 0px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+html {
+  font-size: 20px;
+}
+* {
+  box-sizing: border-box;
+}

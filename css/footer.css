@@ -1,0 +1,25 @@
+.footer {
+  position: fixed;
+  width: 100%;
+  background-color: grey;
+  padding: 25px 0px;
+  bottom: 0px;
+}
+
+.footer__contents {
+  display: flex;
+  /* float: left; */
+  width: 100%;
+  /* background-size: 100% auto; */
+  opacity: 0.75;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__contents img {
+  cursor: pointer;
+  font-size: 20px;
+  width: 30px;
+  margin-left: 35px;
+  border-radius: 6px;
+}
