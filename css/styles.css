@@ -3,7 +3,7 @@
 @import "footer.css";
 @import "home.css";
 @import "developer.css";
-@import "favorite.css:";
+@import "favorite.css";
 @import "dream.css";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
 
@@ -11,8 +11,11 @@ body {
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   color: #020202;
+  /* padding: 10px 0px; */
+  /* z-index: 2; */
+  /* position: ; */
+  /* line-height: 12px; */
   background-color: white;
-  padding: 10px 0px;
 }
 
 a {
@@ -25,4 +28,14 @@ html {
 }
 * {
   box-sizing: border-box;
+}
+
+.interview__body {
+  min-height: auto;
+  /* margin: 0 auto; */
+  margin-bottom: 280px;
+}
+
+.favorite-body {
+  min-height: auto;
 }

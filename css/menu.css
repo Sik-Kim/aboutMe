@@ -98,3 +98,27 @@ input[id="menuicon"]:checked + label + nav {
   opacity: 0.8;
   margin-left: 10px;
 }
+
+.header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  padding: 20px 30px;
+  padding-top: 130px;
+  padding-left: 60px;
+  background-color: white;
+  /* text-underline-position: auto; */
+  font-weight: 600;
+  font-size: 20px;
+  border-bottom: 1px red solid;
+  z-index: 3;
+  background-color: lightsteelblue;
+}
+
+.header__favorite-title {
+  margin-right: 10px;
+}
+
+.header__title-container {
+  margin-bottom: 15px;
+}

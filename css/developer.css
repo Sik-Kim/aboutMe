@@ -1,0 +1,75 @@
+.interview__bottom-container {
+  background-color: lightsteelblue;
+  position: fixed;
+  bottom: 80px;
+  width: 100%;
+  height: 200px;
+  border-top: 1px red solid;
+  z-index: 3;
+}
+
+.arrow-container {
+  position: fixed;
+  /* bottom: 280px; */
+  width: 100%;
+  z-index: 999999;
+}
+
+.interview__arrow-column {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+}
+
+input[id="arrowicon-left"],
+input[id="arrowicon-right"] {
+  display: none;
+}
+
+.arrowicon-left-span {
+  margin-right: 30px;
+}
+.arrowicon-left-span,
+.arrowicon-right-span {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+input[id="arrowicon-left"] + label {
+  display: block;
+  background-color: red;
+  z-index: 999;
+}
+
+/* 인터뷰 컨텐츠 내용 다시... */
+.interview__accordion {
+  margin-top: 200px;
+}
+
+input[id*="answer"] {
+  display: none;
+}
+
+input[id*="answer"] + label {
+  display: block;
+  cursor: pointer;
+  padding: 20px;
+  font-weight: 600;
+  /* position: relative; */
+}
+
+input[id*="answer"] + label + div {
+  max-height: 0;
+  transition: all 0.3s;
+  overflow: hidden;
+}
+
+input[id*="answer"] + label + div p {
+  display: block;
+  margin-left: 300px;
+  padding: 20px;
+}
+
+input[id*="answer"]:checked + label + div {
+  max-height: 300px;
+}
