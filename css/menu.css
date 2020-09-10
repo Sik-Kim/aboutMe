@@ -99,12 +99,13 @@ input[id="menuicon"]:checked + label + nav {
   margin-left: 10px;
 }
 
-.header {
+.header,
+.header__favorite {
   position: fixed;
   top: 0px;
   width: 100%;
   padding: 20px 30px;
-  padding-top: 130px;
+  
   padding-left: 60px;
   background-color: white;
   /* text-underline-position: auto; */
@@ -114,6 +115,12 @@ input[id="menuicon"]:checked + label + nav {
   z-index: 3;
   background-color: lightsteelblue;
 }
+.header{
+  padding-top: 130px;
+}
+.header__favorite {
+  padding-top: 50px;
+
 
 .header__favorite-title {
   margin-right: 10px;

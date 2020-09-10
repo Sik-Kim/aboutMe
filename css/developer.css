@@ -73,3 +73,9 @@ input[id*="answer"] + label + div p {
 input[id*="answer"]:checked + label + div {
   max-height: 300px;
 }
+
+.interview__body {
+  min-height: auto;
+  /* margin: 0 auto; */
+  margin-bottom: 280px;
+}

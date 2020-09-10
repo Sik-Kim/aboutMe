@@ -15,7 +15,9 @@ body {
   /* z-index: 2; */
   /* position: ; */
   /* line-height: 12px; */
-  background-color: white;
+  height: 100vh;
+  /* overflow: hidden; 이거 설정하니까 화면이 안움직이네.... */
+  margin: 0;
 }
 
 a {
@@ -28,14 +30,4 @@ html {
 }
 * {
   box-sizing: border-box;
-}
-
-.interview__body {
-  min-height: auto;
-  /* margin: 0 auto; */
-  margin-bottom: 280px;
-}
-
-.favorite-body {
-  min-height: auto;
 }
