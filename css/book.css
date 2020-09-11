@@ -1,7 +1,7 @@
 .main__favorite img{
   display: block;
   width: 100%;
-  max-height: 815px; 
+  
 }
   /* height: auto; */
   /* z-index: 9999999; */
@@ -19,12 +19,11 @@
 } */
 .favorite__economy-container,
 .booklist,
-.favorite__travel-container,
-.favorite__beer-container {
+.favorite__travel-container {
   width: 100vw;
   /* height: 100vh; */
   display: block;
-  z-index: 999999999999;
+  z-index: 1;
   height: 815px;
 }
 .favorite__economy-container {
@@ -38,9 +37,7 @@
 .favorite__travel-container {
   background-color: #8ab5f8;
 }
-.favorite__beer-container {
-  background-color: green;
-}
+
 
 .booklist {
   display: grid;
@@ -97,11 +94,11 @@
   margin-top: 15px;
   font-size: 20px;
   color: black;
-  margin-left: 50px;
 }
 
 .book{
   background-color: lightcyan;
+
 }
 
 
@@ -132,6 +129,7 @@
   background-color: white;
   position: absolute;
   transform: translateY(-100%) ;
+    font-size: 18px;
 
 }
 

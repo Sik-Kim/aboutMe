@@ -120,7 +120,7 @@ input[id="menuicon"]:checked + label + nav {
 }
 .header__favorite {
   padding-top: 50px;
-
+}
 
 .header__favorite-title {
   margin-right: 10px;
