@@ -1,11 +1,11 @@
-.main__developer{
-position: relative;
-display: block;
-margin: 180px 50px 220px 50px;
+.main__developer {
+  /* position: relative; */
+  display: block;
+  margin: 80px 50px 220px 50px;
 }
 
 .interview__bottom-container {
-  background-color: lightsteelblue;
+  background-color: coral;
   position: fixed;
   bottom: 80px;
   width: 100%;
@@ -50,42 +50,43 @@ input[id="arrowicon-left"] + label {
 
 /* 인터뷰 컨텐츠 내용 다시... */
 .interview__accordion {
-  /* margin-top: 200px; */
+  position: relative;
 }
 
-input[id*="answer"] {
+input[id*='answer'] {
   display: none;
 }
 
-input[id*="answer"] + label {
+input[id*='answer'] + label {
   display: block;
   cursor: pointer;
   padding: 20px;
-  font-weight: 600;
+  font-weight: 700;
   /* position: relative; */
   font-size: 16px;
 }
 
-input[id*="answer"] + label + div {
+input[id*='answer'] + label + div {
   max-height: 0;
   transition: all 0.3s;
   overflow: hidden;
   font-size: 16px;
+  display: flex;
+  justify-content: flex-end;
 }
 
-input[id*="answer"] + label + div p {
-  display: block;
-  margin-left: 300px;
+input[id*='answer'] + label + div p {
+  width: 100%;
   padding: 20px;
+  max-width: 500px;
+  font-weight: 500;
+  line-height: 1.5em;
 }
 
-input[id*="answer"]:checked + label + div {
+input[id*='answer']:checked + label + div {
   max-height: 300px;
 }
 
 .interview__body {
-  /* min-height: auto; */
-  /* margin: 0 auto; */
-  /* margin-bottom: 280px; */
+  height: min-content;
 }
-

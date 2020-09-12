@@ -21,7 +21,7 @@
     <nav class="menu">
      
       <ul class="menu__title">
-        <div class="menu__title-contents">목록</div>
+        <div class="menu__title-contents">록</div>
       </ul>
       <ul class="menu__list">
         <li class="menu__list-item">
@@ -54,23 +54,105 @@
     </nav>
 
     <header class="header__favorite">
-      <div class="header__title-container">
-        <span class="header__favorite-title">Economy</span>
-        <span class="header__favorite-title">Book</span>
-        <span class="header__favorite-title">Travel</span>
+      <div class="header__title-container-favorite">
+        <a href="#first">
+        <span class="header__favorite-title">요즘 관심사 1</span></a>
+        <a href="#second">
+        <span class="header__favorite-title">2</span></a>
+        <a href="#third"><span class="header__favorite-title">3</span></a>
         
       </div>
+      <div class="economy-text">ECONOMY 🏠💰📖</div>
   </header> 
 
   <main class="main__favorite">
-    <div class="favorite__economy-container"></div>
+    <div class="favorite__economy-container" id="first">
+      
+        <div class="economy__contents-container">
+          <img src="images/economy1.jpeg" alt="economy">
+          <h5 class="economy-subtitle-01">#부동산</h5>
+          <h5 class="economy-subtitle-02"><p align="center">요즘 사람들은 어떤 집에서 살고 싶을까요? <br>다양한 주거형태에 관심이 많아요.</p></h5>
+          <div class="economy-tags">
+            <div class="economy-tag">#도시의승리</div>
+            <div class="economy-tag">#호갱노노</div>
+            <div class="economy-tag">#아파트</div>
+            <div class="economy-tag">#단독주택</div>
+            
+            <div class="economy-tag">#살아보고 싶은 곳</div>
+            <div class="economy-tag">#제주도</div>
+          </div>
+        </div>
 
+        <div class="economy__contents-container">
+          <img src="images/economy2.jpeg" alt="economy">
+          <h5 class="economy-subtitle-01">#주식</h5>
+          <h5 class="economy-subtitle-02"><p align="center">주식 투자는 아직이에요<br> 하지만 세계 경제의 핵심은 주식시장!<br>늘 관심 갖고 있어요.</p></h5>
+          <div class="economy-tags">
+            <div class="economy-tag">#코로나백신</div>
+            <div class="economy-tag">#미국vs중국</div>
+            <div class="economy-tag">#5G</div>
+            
+            <div class="economy-tag">#대체육</div>
+            <div class="economy-tag">#워런버핏</div>
+            <div class="economy-tag">#필립피셔</div>
+            
+        </div>
+      </div>
+
+            <div class="economy__contents-container">
+              <img src="images/economy3.jpg" alt="economy">
+              <h5 class="economy-subtitle-01">#인문학</h5>
+              <h5 class="economy-subtitle-02"><p align="center">우리가 사는 세상의 뼈대 인문학.<br>최근에 흥미를 갖기 시작했어요. </p></h5>
+          <div class="economy-tags">
+            <div class="economy-tag">#거인의어깨</div>
+            <div class="economy-tag">#니체</div>
+            <div class="economy-tag">#애덤스미스</div>
+            <div class="economy-tag">#소크라테스</div>
+            <div class="economy-tag">#논어</div>
+            </div>
+          </div>
+        
+    </div>
+      
+<div class="favorite__travel-container" id="second">
+  <div class="travel-text">TRAVEL ✈️🚘🏄🏻‍♂️</div>
+
+  <div class="travel-image">
+    <img src="images/maps.png" alt="map">
+  </div>
+       <!--<img src="images/maps.png" alt="travel"> -->
+    <div class="travel-text-div">
+      <div class="travel-text-div1">
+      <h1 class="travel-text-h1">랜선 세계여행을 좋아합니다. feat. 구글맵스</h1>
+      <h4 class="travel-text-h4">8년간 저장된 장소 580개<br>(실제로 방문한건 절반 정도 입니다.)
+
+      </h4>
+    </div>
+    <div class="travel-text-div2"><h4 class="travel-text-h4"><p align:"bottom"></p>올초 야심차게 멕시코로 3주간 신혼여행을 계획했으나 코로나로 무마되었습니다. 😭</p></h4>
+</div>
+<div class="travel-text-div3"><h4 class="travel-text-h4"><p></p>오만에 6개월간 해외 인턴으로 지낸적이 있는데요. 오만은 세계 어디에도 없는 특별한 여행지입니다.</p></h4>
+</div>
+
+<div class="travel-text-div4">
+  <div class="div4-1">
+  <h4 class="travel-text-h2"><p></p>디지털노마드들의 천국.<br>발리에서 서핑하며 일하는 꿈을 꿔봅니다.</p></h4>
+  </div>
+  <div class="div4-2">
+    <h4 class="travel-text-h4"><p></p>로마 여행중 지금의 아내를 만났습니다. 여행은 생각보다 많은 것을 가져다 줍니다.</p></h4>
+</div>
+</div>
+
+    </div>
+    </div>
 
     <!-- <div class="favorite__book-container"> -->
-      <div class="book">
+      <div class="favorite__book-container" id="third">
+
     <div class="book-subtitle-container">
    
-      <h4 class="book-subtitle">나의 베스트셀러</h4>   </div>
+      <h4 class="book-subtitle">MY BEST BOOKS 📚📚</h4> 
+      </div>
+
     <div class="booklist">
       
     <div class="book1">
@@ -80,11 +162,12 @@
       <div class="popup">
         <input type="checkbox" id="info01">
         <label for="info01"></label>
-        <div class="popup__contents">새는 알에서 나오려고 투쟁한다. 알은 세계이다. 태어나려는 자는 하나의 세계를 깨뜨려야 한다. 새는 신에게로 날아간다. 신의 이름은 압락사스. <br><br><p align="right">P.123 </p>
+        <div class="popup__contents">새는 알에서 나오려고 투쟁한다. 알은 세계이다. 태어나려는 자는 하나의 세계를 깨뜨려야 한다. 새는 신에게로 날아간다. 신의 이름은 압락사스. <br><br><p align="right"> </p>
           <label for="info01">CLOSE</label>
         </div>
       </div>
     </div>
+
       <div class="book2">
         <img src="images/book2.jpeg" alt="book">
       <span class="book-title title">레버리지</span>
@@ -109,6 +192,7 @@
     </div>
   </div>
 </div>
+ 
   <div class="book4">
     <img src="images/book4.png" alt="book">
   <span class="book-title title">자기 앞의 생</span>
@@ -146,6 +230,7 @@
   </div>
 </div>
 </div>
+
 <div class="book7">
   <img src="images/book7.jpeg" alt="book">
 <span class="book-title title">창업가의 일</span>
@@ -158,6 +243,7 @@
   </div>
 </div>
 </div>
+
 <div class="book8">
   <img src="images/book8.jpg" alt="book">
 <span class="book-title title">파도가 바다의 일이라면</span>
@@ -170,51 +256,13 @@
   </div>
 </div>
 </div>
-        </div>
-      <!-- </div> -->
-    </div>   
+      </div>
+    </div>
     
-     <div class="favorite__travel-container">
-       <!--<img src="images/maps.png" alt="travel"> -->
-    <div class="travel-text-div">
-      <div class="travel-text-div1">
-      <h1 class="travel-text-h1">랜선 세계여행을 좋아합니다. feat. 구글맵스</h1>
-      <h4 class="travel-text-h4">8년간 저장된 장소 580개<br>(실제로 방문한건 절반 정도 입니다.)
-
-      </h4>
-    </div>
-    <div class="travel-text-div2"><h4 class="travel-text-h4"><p align: "bottom"></p>올초 야심차게 멕시코로 3주간 신혼여행을 계획했으나 코로나로 무마되었습니다. 😭</p></h4>
-</div>
-<div class="travel-text-div3"><h4 class="travel-text-h4"><p></p>오만에 6개월간 해외 인턴으로 지낸적이 있는데요. 오만은 세계 어디에도 없는 특별한 여행지입니다.</p></h4>
-</div>
-
-<div class="travel-text-div4">
-  <div class="div4-1">
-  <h4 class="travel-text-h2"><p></p>디지털노마드들의 천국.<br>발리에서 서핑하며 일하는 꿈을 꿔봅니다.</p></h4>
-  </div>
-  <div class="div4-2">
-    <h4 class="travel-text-h4"><p></p>로마 여행중 지금의 아내를 만났습니다. 여행은 생각보다 많은 것을 가져다 줍니다.</p></h4>
-</div>
-</div>
-
-    </div>
-    </div>
-
-
+     
     
   </main>
 
-
-
-
-
-
-  
-<div class="scroll__status">
-  <div class="scroll__status-icon">ㅋ</div>
-  <div class="scroll__status-icon">ㅋ</div>
-  <div class="scroll__status-icon">ㅋ</div>
-</div>
 
     <footer class="footer">
       <div class="footer-container">

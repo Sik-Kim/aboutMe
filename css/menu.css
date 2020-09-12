@@ -5,9 +5,10 @@
 }
 
 .menu {
-  background-color: #f6f6f6;
+  /* background-color: #f6f6f6; */
+  background-color: #31353b;
   width: 100%;
-  height: 255px;
+  height: 185px;
   margin-top: 0;
   position: fixed;
   top: -300px;
@@ -24,67 +25,67 @@
   display: block;
 } */
 
-input[id="menuicon"] {
+input[id='menuicon'] {
   display: none;
 }
 
-input[id="menuicon"] + label {
+input[id='menuicon'] + label {
   display: block;
   width: 21px;
   height: 21px;
   z-index: 999999;
   position: fixed;
-  right: 30px;
-  top: 30px;
+  right: 20px;
+  top: 20px;
   cursor: pointer;
 }
 
-input[id="menuicon"] + label span {
+input[id='menuicon'] + label span {
   display: block;
   position: absolute;
   width: 100%;
   height: 3px;
   border-radius: 30px;
-  background-color: #000;
+  background-color: #f5f6fa;
   transition: all 0.4s;
 }
 
-input[id="menuicon"] + label span:nth-child(1) {
+input[id='menuicon'] + label span:nth-child(1) {
   top: 0;
 }
 
-input[id="menuicon"] + label span:nth-child(2) {
+input[id='menuicon'] + label span:nth-child(2) {
   top: 50%;
   transform: translateY(-50%);
 }
 
-input[id="menuicon"] + label span:nth-child(3) {
+input[id='menuicon'] + label span:nth-child(3) {
   bottom: 0;
 }
 
-input[id="menuicon"]:checked + label span:nth-child(1) {
+input[id='menuicon']:checked + label span:nth-child(1) {
   top: 50%;
   transform: translateY(-50%);
   transform: rotate(45deg);
 }
 
-input[id="menuicon"]:checked + label span:nth-child(2) {
+input[id='menuicon']:checked + label span:nth-child(2) {
   opacity: 0;
 }
 
-input[id="menuicon"]:checked + label span:nth-child(3) {
+input[id='menuicon']:checked + label span:nth-child(3) {
   top: 50%;
   transform: translateY(50%);
   transform: rotate(-45deg);
 }
 
-input[id="menuicon"]:checked + label + nav {
+input[id='menuicon']:checked + label + nav {
   top: 0;
 }
 
 .menu .menu__list-title {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   font-size: 18px;
   opacity: 0.75;
 }
@@ -92,40 +93,56 @@ input[id="menuicon"]:checked + label + nav {
 .menu .menu__title-contents {
   padding-left: 20px;
   display: block;
-  margin-top: 60px;
+  margin-top: 30px;
   font-size: 27px;
   font-weight: 700;
   opacity: 0.8;
   margin-left: 10px;
 }
 
-.header,
-.header__favorite {
+.header__title-container-favorite {
   position: fixed;
-  top: 0px;
   width: 100%;
-  padding: 20px 30px;
-  
-  padding-left: 60px;
-  background-color: white;
-  /* text-underline-position: auto; */
-  font-weight: 600;
-  font-size: 20px;
-  border-bottom: 1px red solid;
+  padding: 0px 80px;
+  font-weight: 500;
   z-index: 3;
-  background-color: lightsteelblue;
+  height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
-.header{
-  padding-top: 130px;
+
+.economy-text,
+.travel-text {
+  font-size: 60px;
+  font-weight: 700;
+  display: flex;
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  justify-content: center;
+  /* justify-items: center; */
 }
-.header__favorite {
-  padding-top: 50px;
+
+.header__title-container-developer {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  background-color: #31353b;
+  width: 100%;
+  height: 100px;
+}
+
+.header__title {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  color: #f5f6fa;
 }
 
 .header__favorite-title {
   margin-right: 10px;
-}
-
-.header__title-container {
-  margin-bottom: 15px;
+  font-size: 20px;
+  padding-top: 5px;
 }

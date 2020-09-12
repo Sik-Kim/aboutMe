@@ -1,0 +1,37 @@
+.favorite__economy-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding-top: 100px;
+  z-index: 1;
+  height: 960px;
+}
+
+.favorite__travel-container {
+  /* background-color: #8ab5f8;
+  background-image: url('../images/maps.png');
+  background-size: 1750px 950px;
+  background-repeat: no-repeat; */
+  background-image: linear-gradient(to right, #43c6ac, #f8ffae);
+  height: 920px;
+  position: relative;
+}
+
+.travel-image img {
+  width: 800px;
+  border-radius: 100px;
+  position: absolute;
+  top: 30%;
+}
+
+.favorite__book-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+  z-index: 1;
+  height: 980px;
+  background-color: #f5f6fa;
+}
