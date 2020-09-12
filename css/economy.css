@@ -1,0 +1,50 @@
+.economy__contents-container {
+  max-width: 400px;
+  transform: translateY(180px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 700px;
+}
+
+.favorite__economy-container img {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.economy-subtitle-01 {
+  display: block;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 20px 10px;
+}
+
+.economy-subtitle-02 {
+  display: block;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 20px 10px;
+  line-height: 1.2em;
+}
+
+.economy-tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 350px;
+}
+
+.economy-tag {
+  display: inline-flex;
+  padding: 7px;
+  background-color: #ced6e0;
+  color: #09a777;
+  margin-right: 11px;
+  margin-bottom: 11px;
+  letter-spacing: 2px;
+  font-size: 14px;
+  border-radius: 20px;
+  font-weight: 500;
+}
