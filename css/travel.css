@@ -1,0 +1,74 @@
+
+
+.favorite__travel-container{
+    position: relative;
+  
+    background-image: url("../images/maps.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.favorite__travel-container{
+height: 800px; 
+}
+
+.travel-text-div{
+    position: absolute;
+    top: 550px;
+    left: 500px;
+    transform: translateY(-100%);
+    width: 50px;
+    height: 50px;
+}    
+
+.travel-text-div1{
+    position: absolute;
+    width: 390px;
+    transform: translateY(-50%);
+    }
+
+    .travel-text-div2{
+        /* rotate: 90deg; */
+        width: 300px;
+        height: 35px;
+        transform: rotate(90deg) translateX(95px) translateY(-245px);
+        /* -webkit-transform: rotate(90deg); */
+    }
+    .travel-text-div3{
+        /* rotate: 90deg; */
+        width: 180px;
+        height: 70px;
+        transform: rotate(-90deg) translateX(-90px) translateY(-80px);
+        /* -webkit-transform: rotate(90deg); */
+    }
+    .travel-text-div4{
+        /* rotate: 90deg; */
+        width: 300px;
+        height: 35px;
+        transform:  translateX(70px) translateY(-45px);
+        /* -webkit-transform: rotate(90deg); */
+    }
+
+    .div4-2{
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+    
+
+
+.travel-text-h1{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.travel-text-h2{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.travel-text-h4{
+    font-size: 20px;
+    font-weight: 400;
+} 
+

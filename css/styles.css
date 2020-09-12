@@ -3,7 +3,8 @@
 @import "footer.css";
 @import "home.css";
 @import "developer.css";
-@import "favorite.css";
+@import "book.css";
+@import "travel.css";
 @import "dream.css";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
 
@@ -15,7 +16,8 @@ body {
   /* z-index: 2; */
   /* position: ; */
   /* line-height: 12px; */
-  height: 100vh;
+  /* height: 100vh; */
+height: 100%;
   /* overflow: hidden; 이거 설정하니까 화면이 안움직이네.... */
   margin: 0;
 }
@@ -27,6 +29,7 @@ a {
 
 html {
   font-size: 20px;
+  height: 100%;
 }
 * {
   box-sizing: border-box;
