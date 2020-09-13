@@ -61,7 +61,7 @@ input[id*='answer'] + label {
   display: block;
   cursor: pointer;
   padding: 20px;
-  font-weight: 700;
+  font-weight: 600;
   /* position: relative; */
   font-size: 16px;
 }
