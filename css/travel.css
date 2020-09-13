@@ -1,56 +1,23 @@
-.travel-text-div {
+.travel-content {
+  display: block;
+  width: 400px;
+  height: 300px;
+}
+
+.travel__content-text {
   position: absolute;
-  top: 550px;
-  left: 500px;
-  transform: translateY(-100%);
-  width: 50px;
-  height: 50px;
+  left: 60%;
+  top: 55%;
+  transform: translateY(-35%);
+  display: block;
+  flex-direction: column;
 }
 
-.travel-text-div1 {
-  position: absolute;
-  width: 390px;
-  transform: translateY(-50%);
+.travel__content-text1,
+.travel__content-text2 {
+  font-weight: 700px;
+  font-size: 30px;
 }
-
-.travel-text-div2 {
-  /* rotate: 90deg; */
-  width: 300px;
-  height: 35px;
-  transform: rotate(90deg) translateX(95px) translateY(-245px);
-  /* -webkit-transform: rotate(90deg); */
-}
-.travel-text-div3 {
-  /* rotate: 90deg; */
-  width: 180px;
-  height: 70px;
-  transform: rotate(-90deg) translateX(-90px) translateY(-80px);
-  /* -webkit-transform: rotate(90deg); */
-}
-.travel-text-div4 {
-  /* rotate: 90deg; */
-  width: 300px;
-  height: 35px;
-  transform: translateX(70px) translateY(-45px);
-  /* -webkit-transform: rotate(90deg); */
-}
-
-.div4-2 {
-  margin-top: 10px;
-  margin-left: 100px;
-}
-
-.travel-text-h1 {
-  font-size: 32px;
-  font-weight: 600;
-}
-
-.travel-text-h2 {
-  font-size: 28px;
-  font-weight: 500;
-}
-
-.travel-text-h4 {
-  font-size: 20px;
-  font-weight: 400;
+.travel__content-text1 {
+  margin-bottom: 15px;
 }
